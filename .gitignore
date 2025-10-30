@@ -1,0 +1,16 @@
+/target
+**/target
+**/*.log
+**/.DS_Store
+**/.env
+proxy-core/logs/
+proxy-core/certs/
+proxy-core/config/
+**/node_modules/
+.vscode/
+dist-linux/
+dist-windows/
+release/
+.idea/
+*.iml
+*.tar
