@@ -1,5 +1,7 @@
 # vigie-waf — vigie Web Firewall
 
+[中文说明](./README.CN.MD)
+
 ## What is this project
 This is a cross-platform, all-in-one web defense solution written in Rust.
 It aims to be extremely fast and rock-solid.
