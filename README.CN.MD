@@ -117,6 +117,57 @@ docker run -it -p 80:80 -p 443:443 \
 ### 完成
 感谢你使用vigie-waf
 
+## 其他页面截图
+
+### 首页
+> 图中可以观察到上线后不久，经过防御，攻击者大批量减少
+
+![home](./assets/review/home.png)
+
+### 规则设置
+
+> 可以新增更多的个性防御脚本，也可以通过修改系统默认防御脚本进行微调
+
+![rules](./assets/review/rules.png)
+
+
+### 白名单
+
+> 白名单：可以设置过期时间。
+
+![ipw](./assets/review/ipw.png)
+
+### 黑名单
+
+> 黑名单：可以设置过期时间。伪爬虫也会被防火墙自动加入黑名单屏蔽30分钟
+
+![ipb](./assets/review/ipb.png)
+
+### 智能爬虫防御
+
+> 根据ua申明为爬虫的请求，会进行DNS反向查询，如果是伪造的爬虫将拒绝请求并且屏蔽IP地址30分钟。图中是可以编辑/新增/管理爬虫是否允许进站。
+
+![crawlers](./assets/review/crawlers.png)
+
+
+> 这个功能将平衡SEO和防御之间的关系，你希望那些爬虫可以进站访问，并且可以限制它的频率
+
+![crawlersEdit](./assets/review/crawlersEdit.png)
+
+### POW工作量证明、CC防御、静态资源配置
+
+> 你可以简单的配置pow工作量证明开关、CC防御开关和额度、以及完全不进行防御的静态资源请求；
+
+![security](./assets/review/security.png)
+
+## 版本升级
+
+> 如果你需要，可以进行在线OTA升级，无痛且免费升级到最新版本
+
+![update](./assets/review/update.png)
+
+
+
 
 
 

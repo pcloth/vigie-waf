@@ -132,3 +132,44 @@ Configure your site(s):
 
 Thank you for trying vigie-waf.
 
+## Other pages screenshots
+
+### Home
+> The screenshot shows that shortly after going online, attackers were greatly reduced thanks to the applied defenses.
+
+![home](./assets/review/home.png)
+
+### Rules
+> You can add more custom defense scripts or fine-tune the default system scripts.
+
+![rules](./assets/review/rules.png)
+
+### Whitelist
+> Whitelist entries can be set with expiration times.
+
+![ipw](./assets/review/ipw.png)
+
+### Blacklist
+> Blacklist entries can be set with expiration times. Fake crawlers detected by the firewall are automatically added to the blacklist and blocked for 30 minutes.
+
+![ipb](./assets/review/ipb.png)
+
+### Intelligent crawler defense
+> Requests that declare themselves as crawlers via the User-Agent are subject to reverse DNS verification. Forged crawlers are rejected and their IP addresses are blocked for 30 minutes. The screenshot shows the UI for editing/adding/managing which crawlers are allowed.
+
+![crawlers](./assets/review/crawlers.png)
+
+> This feature balances SEO and defense: choose which crawlers may access your site and optionally limit their crawl rate.
+
+![crawlersEdit](./assets/review/crawlersEdit.png)
+
+### PoW (Proof-of-Work), CC defense, and static resource configuration
+> Easily toggle PoW proof-of-work, enable/disable CC rate limiting and set static resource bypass rules.
+
+![security](./assets/review/security.png)
+
+## Version upgrades
+> You can perform online OTA upgrades to update to the latest version seamlessly and for free.
+
+![update](./assets/review/update.png)
+
