@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="generator" content="VuePress 2.0.0-rc.20" />
+    <style>
+      :root {
+        --vp-c-bg: #fff;
+      }
+
+      [data-theme='dark'] {
+        --vp-c-bg: #1b1b1f;
+      }
+
+      html,
+      body {
+        background-color: var(--vp-c-bg);
+      }
+    </style>
+    <script>
+      const useChoice = localStorage.getItem('vuepress-color-scheme')
+      const systemStatus =
+        'matchMedia' in window
+          ? window.matchMedia('(prefers-color-scheme: dark)').matches
+          : false
+
+      if (useChoice === 'light') {
+        document.documentElement.dataset.theme = 'light'
+      } else if (useChoice === 'dark' || systemStatus) {
+        document.documentElement.dataset.theme = 'dark'
+      }
+    </script>
+    <title>vigie-waf-rust</title><meta name="description" content="一个基于Rust的高性能Web应用防火墙">
+    <link rel="preload" href="/assets/style-84qbPh8i.css" as="style"><link rel="stylesheet" href="/assets/style-84qbPh8i.css">
+    <link rel="modulepreload" href="/assets/app-BEAVsfDt.js"><link rel="modulepreload" href="/assets/404.html-BU8cI1M8.js">
+    <link rel="prefetch" href="/assets/index.html-QV9pt0Sr.js" as="script"><link rel="prefetch" href="/assets/get-started.html-BcGbCS_2.js" as="script">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="vp-theme-container" vp-container data-v-98d5338a><main class="page" data-v-98d5338a><div vp-content data-v-98d5338a><h1 data-v-98d5338a>404</h1><blockquote data-v-98d5338a>That&#39;s a Four-Oh-Four.</blockquote><a class="route-link" href="/" data-v-98d5338a>Take me home</a></div></main></div><!--[--><!----><!--]--><!--]--></div>
+    <script type="module" src="/assets/app-BEAVsfDt.js" defer></script>
+  </body>
+</html>
